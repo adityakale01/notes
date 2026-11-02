@@ -10,6 +10,11 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="theme-color" content="#fafaf9" />
+    <!-- Only this app's own files may run: blocks injected scripts and sending notes anywhere else. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; worker-src 'self' blob:; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data:; font-src 'self' data:; connect-src 'self' blob: data:; object-src 'none'; base-uri 'self'; form-action 'none'"
+    />
     <title>Notes</title>
     <script type="module" crossorigin src="./assets/index-DFCzpEnX.js"></script>
     <link rel="stylesheet" crossorigin href="./assets/index-BFkenZl5.css">
