@@ -1,7 +1,7 @@
 // Generated at build time. Keeps the app working offline.
-const VERSION = 'e44e9809358f'
+const VERSION = '366bdfd8c0c1'
 const CACHE = 'notes-' + VERSION
-const FILES = ["./","./assets/export-Hm2VRkaX.js","./assets/index-BNH4Q1lQ.js","./assets/index-Bo-KzlX3.js","./assets/index-DKWN08Vr.css","./assets/index-DM1ZeDm1.js","./assets/pdf-gh-BrLFn.js","./assets/pdf.worker.min-DgRcL-GR.js","./assets/pdf.worker.min-yatZIOMy.mjs","./assets/web-CCJGm-D4.js","./assets/web-CQk-E7r6.js"]
+const FILES = ["./","./assets/export-nRlDZoUI.js","./assets/index-D6xfVQ5e.css","./assets/index-DiT2a91-.js","./assets/index-DoPhRkPX.js","./assets/index-PplrzuZe.js","./assets/pdf-gh-BrLFn.js","./assets/pdf.worker.min-DgRcL-GR.js","./assets/pdf.worker.min-yatZIOMy.mjs","./assets/web-BtbtdRwG.js","./assets/web-Buh3UMnu.js"]
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
