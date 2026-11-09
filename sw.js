@@ -1,7 +1,7 @@
 // Generated at build time. Keeps the app working offline.
-const VERSION = '22de9256fba1'
+const VERSION = '334d73d7a660'
 const CACHE = 'notes-' + VERSION
-const FILES = ["./","./apple-touch-icon.png","./assets/export-BLsFa-d-.js","./assets/index-BTf5Q4wk.js","./assets/index-CAtqmFNm.js","./assets/index-DX1fONg8.css","./assets/index-Q-0AtXD_.js","./assets/pdf-gh-BrLFn.js","./assets/pdf.worker.min-DgRcL-GR.js","./assets/pdf.worker.min-yatZIOMy.mjs","./assets/web-CvgDuSoB.js","./assets/web-DhM_8A8o.js","./favicon-32.png","./icon-192.png","./icon-512.png","./licenses.txt","./manifest.webmanifest"]
+const FILES = ["./","./apple-touch-icon.png","./assets/export-_d5W-l5v.js","./assets/index-BGz9Zz0w.js","./assets/index-BUURGGrS.js","./assets/index-C4ImXoBr.js","./assets/index-DX1fONg8.css","./assets/pdf-gh-BrLFn.js","./assets/pdf.worker.min-DgRcL-GR.js","./assets/pdf.worker.min-yatZIOMy.mjs","./assets/web-BwVtPQq0.js","./assets/web-Dxg5qbAU.js","./favicon-32.png","./icon-192.png","./icon-512.png","./licenses.txt","./manifest.webmanifest"]
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
